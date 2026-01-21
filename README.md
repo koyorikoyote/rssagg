@@ -6,4 +6,4 @@ Collects and aggregates posts from RSS Feeds and Blogs followed by users
 
 Contains simple authentication
 
-Server only REST api
+Server only REST api. Uses PostgreSQL
