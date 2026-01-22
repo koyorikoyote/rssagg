@@ -42,8 +42,6 @@ func urlToFeed(url string) (RSSFeed, error) {
 
 	rssFeed := RSSFeed{}
 	xml.Unmarshal(dat, &rssFeed)
-	if err != nil {
-		return RSSFeed{}, err
-	}
+
 	return rssFeed, nil
 }
